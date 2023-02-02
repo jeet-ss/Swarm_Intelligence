@@ -1,0 +1,155 @@
+<graph>
+	<node id="n0" name="Binaere Suche"/>
+	<node id="n1" name="Sortieren durch Einfuegen"/>
+	<node id="n2" name="Schnelle Sortieralgorithmen"/>
+	<node id="n3" name="Paralleles Sortieren"/>
+	<node id="n4" name="Texte durchsuchen"/>
+	<node id="n5" name="Tiefensuche"/>
+	<node id="n6" name="Pledge-Algorithmus"/>
+	<node id="n7" name="Zyklensuche in Graphen"/>
+	<node id="n8" name="PageRank"/>
+	<node id="n9" name="Multiplikation langer Zahlen"/>
+	<node id="n10" name="Euklidischer Algorithmus"/>
+	<node id="n11" name="Sieb des Eratosthenes"/>
+	<node id="n12" name="Einweg-Funktionen"/>
+	<node id="n13" name="One-Time-Pads"/>
+	<node id="n14" name="Public-Key-Kryptographie"/>
+	<node id="n15" name="Teilen von Geheimnissen"/>
+	<node id="n16" name="Poker per E-Mail"/>
+	<node id="n17" name="Fingerprinting"/>
+	<node id="n18" name="Hashing"/>
+	<node id="n19" name="Zufallszahlen"/>
+	<node id="n20" name="Fehlererkennende Codes"/>
+	<node id="n21" name="Turnier- und Sportligaplanung"/>
+	<node id="n22" name="Eulertour"/>
+	<node id="n23" name="Dynamische Programmierung"/>
+	<node id="n24" name="Gewinnstrategie fuer ein Streichholzspiel"/>
+	<node id="n25" name="Alphabeta-Algorithmus fuer Spielbaeume"/>
+	<node id="n26" name="Gauss-Seidel Iteration"/>
+	<node id="n27" name="Kreise zeichnen"/>
+	<node id="n28" name="Faires Teilen"/>
+	<node id="n29" name="Mehrheitsbestimmung"/>
+	<node id="n30" name="Broadcasting"/>
+	<node id="n31" name="Kuerzeste Wege"/>
+	<node id="n32" name="Rucksackproblem"/>
+	<node id="n33" name="Minimale aufspannende Baeume"/>
+	<node id="n34" name="Maximale Fluesse"/>
+	<node id="n35" name="Partnerschaftsvermittlung"/>
+	<node id="n36" name="Travelling Salesman Problem"/>
+	<node id="n37" name="Simulated Annealing"/>
+	<node id="n38" name="Kleinster umschliessender Kreis"/>
+	<node id="n39" name="Topologisches Sortieren"/>
+	<node id="n40" name="Zahlen auf Deutsch aussprechen"/>
+	<node id="n41" name="Online-Algorithmen"/>
+	<node id="n42" name="Bin Packing"/>
+	<edge id="e0" source="n0" target="n1"/>
+	<edge id="e1" source="n0" target="n3"/>
+	<edge id="e2" source="n0" target="n2"/>
+	<edge id="e3" source="n1" target="n2"/>
+	<edge id="e4" source="n1" target="n3"/>
+	<edge id="e5" source="n1" target="n0"/>
+	<edge id="e6" source="n2" target="n1"/>
+	<edge id="e7" source="n2" target="n0"/>
+	<edge id="e8" source="n3" target="n1"/>
+	<edge id="e9" source="n3" target="n2"/>
+	<edge id="e10" source="n4" target="n18"/>
+	<edge id="e11" source="n4" target="n0"/>
+	<edge id="e12" source="n5" target="n19"/>
+	<edge id="e13" source="n5" target="n31"/>
+	<edge id="e14" source="n5" target="n6"/>
+	<edge id="e15" source="n5" target="n7"/>
+	<edge id="e16" source="n5" target="n0"/>
+	<edge id="e17" source="n6" target="n31"/>
+	<edge id="e18" source="n6" target="n7"/>
+	<edge id="e19" source="n6" target="n5"/>
+	<edge id="e20" source="n7" target="n5"/>
+	<edge id="e21" source="n8" target="n22"/>
+	<edge id="e22" source="n8" target="n26"/>
+	<edge id="e23" source="n9" target="n2"/>
+	<edge id="e24" source="n9" target="n12"/>
+	<edge id="e25" source="n9" target="n14"/>
+	<edge id="e26" source="n9" target="n5"/>
+	<edge id="e27" source="n10" target="n14"/>
+	<edge id="e28" source="n10" target="n9"/>
+	<edge id="e29" source="n11" target="n18"/>
+	<edge id="e30" source="n11" target="n12"/>
+	<edge id="e31" source="n11" target="n14"/>
+	<edge id="e32" source="n11" target="n20"/>
+	<edge id="e33" source="n12" target="n11"/>
+	<edge id="e34" source="n12" target="n14"/>
+	<edge id="e35" source="n12" target="n29"/>
+	<edge id="e36" source="n12" target="n0"/>
+	<edge id="e37" source="n12" target="n9"/>
+	<edge id="e38" source="n13" target="n19"/>
+	<edge id="e39" source="n13" target="n15"/>
+	<edge id="e40" source="n13" target="n14"/>
+	<edge id="e41" source="n13" target="n20"/>
+	<edge id="e42" source="n14" target="n15"/>
+	<edge id="e43" source="n14" target="n12"/>
+	<edge id="e44" source="n14" target="n0"/>
+	<edge id="e45" source="n14" target="n13"/>
+	<edge id="e46" source="n15" target="n12"/>
+	<edge id="e47" source="n15" target="n14"/>
+	<edge id="e48" source="n15" target="n9"/>
+	<edge id="e49" source="n16" target="n12"/>
+	<edge id="e50" source="n17" target="n19"/>
+	<edge id="e51" source="n17" target="n15"/>
+	<edge id="e52" source="n18" target="n12"/>
+	<edge id="e53" source="n19" target="n17"/>
+	<edge id="e54" source="n19" target="n37"/>
+	<edge id="e55" source="n19" target="n14"/>
+	<edge id="e56" source="n19" target="n13"/>
+	<edge id="e57" source="n20" target="n19"/>
+	<edge id="e58" source="n20" target="n17"/>
+	<edge id="e59" source="n21" target="n31"/>
+	<edge id="e60" source="n21" target="n36"/>
+	<edge id="e61" source="n21" target="n22"/>
+	<edge id="e62" source="n21" target="n10"/>
+	<edge id="e63" source="n21" target="n34"/>
+	<edge id="e64" source="n21" target="n33"/>
+	<edge id="e65" source="n22" target="n36"/>
+	<edge id="e66" source="n22" target="n7"/>
+	<edge id="e67" source="n24" target="n23"/>
+	<edge id="e68" source="n24" target="n25"/>
+	<edge id="e69" source="n25" target="n2"/>
+	<edge id="e70" source="n25" target="n5"/>
+	<edge id="e71" source="n26" target="n8"/>
+	<edge id="e72" source="n27" target="n6"/>
+	<edge id="e73" source="n27" target="n38"/>
+	<edge id="e74" source="n27" target="n9"/>
+	<edge id="e75" source="n28" target="n2"/>
+	<edge id="e76" source="n28" target="n9"/>
+	<edge id="e77" source="n29" target="n2"/>
+	<edge id="e78" source="n29" target="n0"/>
+	<edge id="e79" source="n30" target="n2"/>
+	<edge id="e80" source="n31" target="n36"/>
+	<edge id="e81" source="n31" target="n22"/>
+	<edge id="e82" source="n31" target="n23"/>
+	<edge id="e83" source="n31" target="n7"/>
+	<edge id="e84" source="n31" target="n33"/>
+	<edge id="e85" source="n31" target="n5"/>
+	<edge id="e86" source="n32" target="n1"/>
+	<edge id="e87" source="n32" target="n2"/>
+	<edge id="e88" source="n32" target="n31"/>
+	<edge id="e89" source="n32" target="n23"/>
+	<edge id="e90" source="n33" target="n2"/>
+	<edge id="e91" source="n33" target="n31"/>
+	<edge id="e92" source="n33" target="n36"/>
+	<edge id="e93" source="n33" target="n7"/>
+	<edge id="e94" source="n34" target="n31"/>
+	<edge id="e95" source="n34" target="n7"/>
+	<edge id="e96" source="n34" target="n5"/>
+	<edge id="e97" source="n35" target="n34"/>
+	<edge id="e98" source="n36" target="n2"/>
+	<edge id="e99" source="n36" target="n32"/>
+	<edge id="e100" source="n36" target="n33"/>
+	<edge id="e101" source="n37" target="n35"/>
+	<edge id="e102" source="n37" target="n31"/>
+	<edge id="e103" source="n37" target="n36"/>
+	<edge id="e104" source="n37" target="n32"/>
+	<edge id="e105" source="n37" target="n34"/>
+	<edge id="e106" source="n37" target="n33"/>
+	<edge id="e107" source="n38" target="n19"/>
+	<edge id="e108" source="n41" target="n42"/>
+	<edge id="e109" source="n42" target="n41"/>
+</graph>
